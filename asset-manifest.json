@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e02dadf8.chunk.css",
+    "main.js": "/static/js/main.a1db0d1a.chunk.js",
+    "main.js.map": "/static/js/main.a1db0d1a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37c6f43f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37c6f43f.js.map",
+    "static/js/2.cdfdce14.chunk.js": "/static/js/2.cdfdce14.chunk.js",
+    "static/js/2.cdfdce14.chunk.js.map": "/static/js/2.cdfdce14.chunk.js.map",
+    "static/js/3.4e8c6d1f.chunk.js": "/static/js/3.4e8c6d1f.chunk.js",
+    "static/js/3.4e8c6d1f.chunk.js.map": "/static/js/3.4e8c6d1f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e02dadf8.chunk.css.map": "/static/css/main.e02dadf8.chunk.css.map",
+    "static/js/2.cdfdce14.chunk.js.LICENSE.txt": "/static/js/2.cdfdce14.chunk.js.LICENSE.txt",
+    "static/media/background-problem.eb50db6b.jpg": "/static/media/background-problem.eb50db6b.jpg",
+    "static/media/background-summary.0e203437.jpg": "/static/media/background-summary.0e203437.jpg",
+    "static/media/consumers.c83f1e6e.jpg": "/static/media/consumers.c83f1e6e.jpg",
+    "static/media/doctor.692e5f7f.jpg": "/static/media/doctor.692e5f7f.jpg",
+    "static/media/fever.807ea424.jpg": "/static/media/fever.807ea424.jpg",
+    "static/media/hospital.6b823445.jpg": "/static/media/hospital.6b823445.jpg",
+    "static/media/lateral-flow-test.112fba1a.png": "/static/media/lateral-flow-test.112fba1a.png",
+    "static/media/pharmacist.4f227daf.jpeg": "/static/media/pharmacist.4f227daf.jpeg",
+    "static/media/shanil.fe618081.png": "/static/media/shanil.fe618081.png",
+    "static/media/sore-throat.170fc183.jpg": "/static/media/sore-throat.170fc183.jpg",
+    "static/media/timeline.e381e86a.svg": "/static/media/timeline.e381e86a.svg",
+    "static/media/uti.d2f15dff.jpg": "/static/media/uti.d2f15dff.jpg",
+    "static/media/yang.c7687ca7.png": "/static/media/yang.c7687ca7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37c6f43f.js",
+    "static/js/2.cdfdce14.chunk.js",
+    "static/css/main.e02dadf8.chunk.css",
+    "static/js/main.a1db0d1a.chunk.js"
+  ]
+}
