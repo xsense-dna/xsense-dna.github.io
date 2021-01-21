@@ -17,17 +17,6 @@ function App() {
   return (
     <div className="App">
       <Title/>
-      <Summary/>
-      <Team/>
-      <Advisors/>
-      <Problem/>
-      <Solution/>
-      <Product/>
-      <Model/>
-      <Market/>
-      <Competitors/>
-      <Timeline/>
-      <Contact/>
     </div>
   );
 }
