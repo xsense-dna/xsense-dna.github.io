@@ -52,13 +52,6 @@ a:active {
   justify-content: center;
 }
 
-.title > .slide {
-  border-radius: 120vmin;
-  height: 150vmin;
-  width: 150vmin;
-  background-color: #005EB8;
-}
-
 .title > .slide > img {
   width: 100%;
 }
