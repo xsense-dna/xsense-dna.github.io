@@ -1,0 +1,135 @@
+/*
+colours:
+
+#ff6700 - orange
+#ebebeb - white
+#f0f0f0 - grey
+#3a6ea5 - blue
+#005EB8 - dark blue
+
+*/
+
+h1 {
+  font-family: Montserrat;
+  font-size: 5vh;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 4vh
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 3vh;
+}
+
+a {
+  text-decoration: inherit;
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #005EB8;
+  color: #ffffff;
+}
+
+a:active {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+
+.container {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+  padding: 0;
+}
+
+.scrollable {
+  -ms-overflow-style: none;
+  scrollbar-width: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  fill: #005EB8;
+  width: 100vw;
+  height: 100vh;
+  left: 0vh;
+}
+
+.title {
+  height: 100vh;
+}
+
+.title-line {
+  width: 75%;
+}
+
+.theme-dark {
+  background-color: #005EB8;
+  color: #ebebeb;
+}
+
+.theme-light {
+  background-color: #f0f0f0;
+  color: #005EB8;
+}
+
+.black  {
+  color: black;
+}
+
+.dark {
+  color: #005EB8;
+}
+
+.light {
+  color: #ebebeb;
+}
+
+.contact-button {
+  padding: 10px 40px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.contact-button.theme-light {
+  margin-bottom: -30px;
+  z-index: 5;
+}
+
+.text-box {
+  border-radius: 50px;
+  padding: 25px 0px;
+  margin-bottom: 20px;
+}
+
+.logo-title {
+  height: 20vh;
+}
