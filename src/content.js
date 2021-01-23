@@ -1,7 +1,8 @@
 import React from 'react';
 import './content.css';
-import title from './assets/xsense-title.svg'
-import line from './assets/line.svg'
+import title from './assets/xsense-title.svg';
+import line from './assets/line.svg';
+import diagram from './assets/diagram.svg';
 
 function Content() {
   return (
@@ -27,6 +28,15 @@ function Content() {
               using advanced DNA probing. This will save millions of 
               lives and billions from the economy.
             </p>
+          </div>
+        </div>
+        <div className="slide">
+        <h1 className="contact-button theme-light">Our Technology</h1>
+          <div className="text-box theme-light">
+            <p>
+            Super-selectivity powered genome targeting
+            </p>
+            <img src={diagram}/>
           </div>
           <a target="_top" className="contact-button" href="https://imperiallondon.sharepoint.com/sites/VCCSoftNano-MM/Shared%20Documents/General/Research/xSense%20Draft%20Design.pptx?web=0?download.aspx">
             <h1>Contact Us</h1>

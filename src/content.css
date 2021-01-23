@@ -149,3 +149,7 @@ a:active {
 .logo-title {
   height: 20vh;
 }
+
+svg {
+  font-family: Montserrat;
+}
