@@ -39,7 +39,7 @@ function Content() {
             <p>
             Super-selectivity powered genome targeting
             </p>
-            <img src={diagram}/>
+            <img src={diagram} className="diagram"/>
           </div>
           <div className="button-row">
             <a target="_blank" className="contact-button" href="mailto:invest@debeshmandal.co.uk">

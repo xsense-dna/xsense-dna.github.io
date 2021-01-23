@@ -76,7 +76,7 @@ a:active {
   z-index: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .slide {
     width: 95%;
   }
@@ -161,4 +161,9 @@ a:active {
 
 .button-row > .contact-button {
   width: 35%;
+}
+
+.diagram {
+  position: relative;
+  width: 55vw;
 }
