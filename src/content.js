@@ -12,7 +12,7 @@ function Content() {
           <img src={title} className="logo-title"/>
           <img src={line} className="title-line"/>
           <h2>Removing the doubt from diagnostics</h2>
-          <a target="_top" className="contact-button" href="https://imperiallondon.sharepoint.com/sites/VCCSoftNano-MM/Shared%20Documents/General/Research/xSense%20Draft%20Design.pptx?web=0?download.aspx">
+          <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
             <h1>Download Pitch Deck</h1>
           </a>
         </div>
@@ -27,8 +27,11 @@ function Content() {
               point-of-care test to identify any specific bacteria 
               using advanced DNA probing. This will save millions of 
               lives and billions from the economy.
-            </p>
+            </p>  
           </div>
+          <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+            <h1>Download Pitch Deck</h1>
+          </a>
         </div>
         <div className="slide">
         <h1 className="contact-button theme-light">Our Technology</h1>
@@ -38,9 +41,14 @@ function Content() {
             </p>
             <img src={diagram}/>
           </div>
-          <a target="_top" className="contact-button" href="https://imperiallondon.sharepoint.com/sites/VCCSoftNano-MM/Shared%20Documents/General/Research/xSense%20Draft%20Design.pptx?web=0?download.aspx">
-            <h1>Contact Us</h1>
-          </a>
+          <div className="button-row">
+            <a target="_blank" className="contact-button" href="mailto:invest@debeshmandal.co.uk">
+              <h1>Contact Us</h1>
+            </a>
+            <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+              <h1>Download Pitch Deck</h1>
+            </a>
+          </div>
         </div>
       </div>
     </div>

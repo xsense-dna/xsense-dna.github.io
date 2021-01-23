@@ -133,6 +133,9 @@ a:active {
   padding: 10px 40px;
   border-style: solid;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-button.theme-light {
@@ -150,6 +153,12 @@ a:active {
   height: 20vh;
 }
 
-svg {
-  font-family: Montserrat;
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button-row > .contact-button {
+  width: 35%;
 }
