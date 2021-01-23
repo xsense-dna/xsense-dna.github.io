@@ -9,10 +9,10 @@ function Content() {
     <div className="container title">
       <div className="light scrollable">
         <div className="slide">
-          <img src={title} className="logo-title"/>
-          <img src={line} className="title-line"/>
+          <img src={title} className="logo-title" alt="title"/>
+          <img src={line} className="title-line" alt="line"/>
           <h2>Removing the doubt from diagnostics</h2>
-          <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+          <a target="_blank" rel="noreferrer"  className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
             <h1>Download Pitch Deck</h1>
           </a>
         </div>
@@ -29,7 +29,7 @@ function Content() {
               lives and billions from the economy.
             </p>  
           </div>
-          <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+          <a target="_blank" rel="noreferrer"  className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
             <h1>Download Pitch Deck</h1>
           </a>
         </div>
@@ -39,14 +39,14 @@ function Content() {
             <p>
             Super-selectivity powered genome targeting
             </p>
-            <img src={diagram} className="diagram"/>
+            <img src={diagram} className="diagram" alt="diagram"/>
           </div>
           <div className="button-row-container">
             <div className="button-row">
-              <a target="_blank" className="contact-button" href="mailto:invest@debeshmandal.co.uk">
+              <a target="_blank" rel="noreferrer" className="contact-button" href="mailto:invest@debeshmandal.co.uk">
                 <h1>Contact Us</h1>
               </a>
-              <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+              <a target="_blank" rel="noreferrer" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
                 <h1>Download Pitch Deck</h1>
               </a>
             </div>
