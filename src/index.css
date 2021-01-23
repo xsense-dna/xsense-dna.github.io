@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: none;
   scrollbar-width: 0;
+  height: 100%;
 }
 
 ::-webkit-scrollbar {
