@@ -34,20 +34,22 @@ function Content() {
           </a>
         </div>
         <div className="slide">
-        <h1 className="contact-button theme-light">Our Technology</h1>
+          <h1 className="contact-button theme-light">Our Technology</h1>
           <div className="text-box theme-light">
             <p>
             Super-selectivity powered genome targeting
             </p>
             <img src={diagram} className="diagram"/>
           </div>
-          <div className="button-row">
-            <a target="_blank" className="contact-button" href="mailto:invest@debeshmandal.co.uk">
-              <h1>Contact Us</h1>
-            </a>
-            <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
-              <h1>Download Pitch Deck</h1>
-            </a>
+          <div className="button-row-container">
+            <div className="button-row">
+              <a target="_blank" className="contact-button" href="mailto:invest@debeshmandal.co.uk">
+                <h1>Contact Us</h1>
+              </a>
+              <a target="_blank" className="contact-button" href="https://drive.google.com/file/d/12Wq44mTm3zihyzLIij9CSGISojw-RLoT/view?usp=sharing">
+                <h1>Download Pitch Deck</h1>
+              </a>
+            </div>
           </div>
         </div>
       </div>

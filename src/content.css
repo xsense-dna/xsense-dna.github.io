@@ -76,24 +76,6 @@ a:active {
   z-index: 1;
 }
 
-@media only screen and (max-width: 800px) {
-  .slide {
-    width: 95%;
-  }
-  h1 {
-    font-size: 4vw;
-  }
-  h3 {
-    font-size: 3.5vw;
-  }
-  p {
-    font-size: 3vw;
-  }
-  .button-row {
-    flex-direction: column;
-  }
-}
-
 .background {
   position: absolute;
   fill: #005EB8;
@@ -169,4 +151,29 @@ a:active {
 .diagram {
   position: relative;
   width: 55vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .slide {
+    width: 95%;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 3.5vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  .button-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+  }
+  .button-row-container {
+    display: relative;
+    margin-left: 45vw;
+  }
 }
