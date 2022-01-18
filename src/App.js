@@ -1,7 +1,9 @@
 import Content from './content';
 import './App.css';
 
+
 function App() {
+
   return (
     <div className="App">
       <svg viewbox="0 0 150 150" className="background">
