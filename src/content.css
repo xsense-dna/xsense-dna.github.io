@@ -99,7 +99,7 @@ a:active {
 
 .theme-dark {
   background-color: #005EB8;
-  color: #ebebeb;
+  color: #f0f0f0;
 }
 
 .theme-light {
@@ -116,7 +116,7 @@ a:active {
 }
 
 .light {
-  color: #ebebeb;
+  color: #f0f0f0;
 }
 
 .contact-button {
@@ -161,8 +161,9 @@ a:active {
 }
 
 @media only screen and (max-width: 1000px) {
-  .slide {
-    width: 95%;
+
+  .title-text {
+    font-size: 10vw;
   }
   h1 {
     font-size: 4vw;
@@ -171,16 +172,29 @@ a:active {
     font-size: 3.5vw;
   }
   p {
-    font-size: 14pt;
+    font-size: 10pt;
   }
   .button-row {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     width: 90vw;
   }
   .button-row-container {
     display: relative;
-    margin-left: 45vw;
+  }
+  .slide {
+    display: flex;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .text-box {
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+    width: 90%;
   }
 }
